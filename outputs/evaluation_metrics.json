@@ -1,0 +1,25 @@
+{
+    "algorithm": "Linear Regression",
+    "random_state": 42,
+    "train_samples": 777,
+    "test_samples": 195,
+    "features": [
+        "brand_name",
+        "ram_capacity",
+        "internal_memory",
+        "battery_capacity",
+        "screen_size",
+        "primary_camera_rear",
+        "primary_camera_front",
+        "processor_brand",
+        "has_5g"
+    ],
+    "target": "price",
+    "r2_score": 0.7941,
+    "mae": 10933.51,
+    "mse": 237739829.21,
+    "rmse": 15418.81,
+    "target_price_min": 3499.0,
+    "target_price_mean": 32633.36316872428,
+    "target_price_max": 650000.0
+}
